@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.eco-icono {
+  filter: invert(50%) sepia(14%) saturate(662%) hue-rotate(244deg) brightness(90%) contrast(89%);
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  display: none !important;
+}
+
+.DatePicker{
+  left:-26px;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+  color: #856c8a !important
+
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+}
+
+/* .searchbar-icon > svg {
+  position: relative;
+  left: -10px !important;
+} */
+
+
+mark {
+  color: black;
+  padding: 5px;
+  background: rgb(184,255,18);
+  background: linear-gradient(90deg, rgba(184,255,18,1) 0%, rgba(223,252,33,1) 50%, rgba(184,255,18,1) 100%);
+  ;
+}
+
+
+.verde{
+  color: yellow !important
+}

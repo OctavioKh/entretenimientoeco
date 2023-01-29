@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/Sidebar';
+import background from './assets/SPLASH-01.png'
+// import SearchBar from './components/Searchbar'
+import theme from './components/theme';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+
+
+// function LandingFrame() {
+//   const style = {
+//       "background-image": `url(${background})`,
+//       "background-repeat": "no-repeat",
+//       "background-size": "cover",
+//       position: "absolute",
+//       height: "100%",
+//       width: "100%"
+//   }
+//   return <div style={style}></div>
+// }
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ThemeProvider theme={theme}>
+
+    <div className="App" >
+      {/* <SearchBar/> */}
+   <Sidebar />
     </div>
+    </ThemeProvider>
   );
 }
 
